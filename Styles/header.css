@@ -1,0 +1,94 @@
+.header-section-container {
+  height: 18vh;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 5px 10px -7px grey;
+  top: 0;
+  left: 0;
+  background: white;
+  z-index: 10;
+}
+
+.header-section-logo-img {
+  height: 3rem;
+  display: inline-flex;
+  margin-left: 0.5rem;
+}
+
+.header-section-nav-bar-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-section-nav-bar {
+  display: flex;
+  width: 100%;
+  padding: 0 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-section-nav-bar-item-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-section-nav-bar-circle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-section-nav-bar-circle {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 2px solid #002b49;
+  border-radius: 50%;
+}
+
+.header-section-nav-bar-filled-circle {
+  width: 1rem;
+  height: 1rem;
+  background: #002b49;
+  border-radius: 50%;
+  position: absolute;
+  transition: opacity linear 0.5s;
+}
+
+.header-section-nav-bar-line-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-section-nav-bar-line {
+  width: 8rem;
+  height: 2px;
+  background: #002b49;
+  margin: 0 0.3rem;
+  transition: width linear 1s;
+}
+
+.header-section-nav-bar-filled-line {
+  width: 0rem;
+  height: 5px;
+  background: #002b49;
+  margin: 0 0.3rem;
+  transition: width linear 0.4s;
+  position: absolute;
+}
+
+.header-section-nav-bar-text-container {
+  display: flex;
+  width: 100%;
+  padding: 0 5rem;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.header-section-nav-bar-text {
+  width: 8rem;
+  color: #002b49;
+}

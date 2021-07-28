@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "AvenirNext";
+  src: url("../Assets/Fonts/AvenirNextLTCom-Regular.ttf");
+}
+
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+
+}
+
+h1 {
+  font-size: 30px;
+  color: white;
+}
+p {
+  font-size: 20px;
+  color: white;
+}
+
+h1,
+p {
+  text-align: center;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr 2fr;
+  grid-template-rows: repeat(2, 0.8fr 1.2fr);
+  gap: 20px 20px;
+  grid-auto-flow: row;
+  width: 100vw;
+  height: 100vh;
+  grid-template-areas:
+    "Capital-Cares Capital-Cares PeopleMatter Numbers"
+    "Legacy MENU MENU Clients"
+    "Legacy MENU MENU Clients"
+    "Trends Markets News Media";
+}
+
+.Capital-Cares {
+  grid-area: Capital-Cares;
+  background: url("../Assets/Images/plant.jpg") center center;
+  background-size: cover;
+}
+
+.Numbers {
+  grid-area: Numbers;
+  background: url("../Assets/Images/navyblue.jpg") center center;
+  background-size: cover;
+}
+
+.MENU {
+  grid-area: MENU;
+  background-size: cover;
+}
+
+.Media {
+  grid-area: Media;
+  background: url("../Assets/Images/coupleembracing.jpg") center center;
+  background-size: cover;
+}
+
+.News {
+  grid-area: News;
+  background: url("../Assets/Images/waterplant.jpg") center center;
+  background-size: cover;
+}
+
+.Markets {
+  grid-area: Markets;
+  background: url("../Assets/Images/waves.jpg") center center;
+  background-size: cover;
+}
+
+.Trends {
+  grid-area: Trends;
+  background: url("../Assets/Images/midyear.jpg") center center;
+  background-size: cover;
+}
+
+.Legacy {
+  grid-area: Legacy;
+  background: url("../Assets/Images/sarihandholding.jpg") center center;
+  background-size: cover;
+}
+
+.Clients {
+  grid-area: Clients;
+  background: url("../Assets/Images/hands.jpg") center center;
+  background-size: cover;
+}
+
+.PeopleMatter {
+  grid-area: PeopleMatter;
+  background: url("../Assets/Images/beigemarble.jpg") center center;
+  background-size: cover;
+}
+
+.grid {
+  height: 100%;
+  margin: auto;
+}
+
+.grid-view-parent-container {
+  display: flex;
+  height: 82vh;
+  margin-top: 18vh;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #e3e1dc;
+}
+
+.grid-view-container {
+  min-width: 100vw;
+  display: flex;
+  background-color: #e3e1dc;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.grid * {
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.player-wrapper {
+  object-fit: cover;
+  object-position: center;
+}
+
+video {
+  max-width: 100%;
+  max-height: 100%;
+  }
+
+.video-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 2px #002b49;
+}
+
+
+

@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "AvenirNext";
+  src: url("../Assets/Fonts/AvenirNextLTCom-Regular.ttf");
+}
+
+.section-view-parent-container {
+  display: flex;
+  height: 82vh;
+  margin-top: 18vh;
+  flex-flow: row nowrap;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+}
+
+.section-view-container {
+  height: 100vh;
+  width: 100vw;
+  flex-wrap: wrap;
+  display: flex;
+  background-color: #e3e1dc;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+
+
+.section-top-text {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.right-section-container {
+  background: #e3e1dc;
+  display: block;
+  flex: 0 0 50%;
+  margin-left: auto;
+  margin-top: -10%;
+  max-height: 400px;
+  position: relative;
+}
+
+.nav {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.nav a {
+  background-color: #e3e1dc;
+  cursor: pointer;
+  width: 15px;
+  height: 20px;
+  margin-bottom: 3px;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 3px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 40px;
+  display: inline-block;
+}
+
