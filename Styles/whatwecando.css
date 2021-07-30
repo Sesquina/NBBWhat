@@ -15,48 +15,12 @@ body {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 2em 1fr 2em;
-  grid-template-rows: 10em minmax(0, 1fr) 10em;
-  gap: 1% 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "text text text"
-    "lineicon lineicon lineicon"
-    "CapitalGroup CapitalGroup CapitalGroup";
-}
-
-.text {
-  grid-area: text;
-
-}
-
-.lineicon {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 0.6fr 1.8fr 0.6fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "block block block"
-    "block block block"
-    "line line line";
-  grid-area: lineicon;
-}
-
-.block {
-  grid-area: block;
   display: flex;
-  flex-direction: row;
-  left: 20vw;
-  justify-content: space-around;
+  flex-direction: column;
+  margin-top: 18vh;
 }
 
-.CapitalGroup {
-  grid-area: CapitalGroup;
-  flex-direction: row;
-  padding-bottom: 10px;
-}
+
 
 
 

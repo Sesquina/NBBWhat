@@ -1,0 +1,24 @@
+{
+    "rings": {
+      "icon": "rings",
+        "title" : "Passing Wealth To The Next Generation",
+        "message":"We'll work with you on legacy planning, an dcan help you build an in-depth wealth strategy that we regularly update with you"
+    },
+    "sudden": {
+      "icon": "palmtree",
+        "title" : "Navigating Sudden Wealth",
+        "message":" Hello World"
+    },
+    "Nonprofit": {
+      "icon": "rings",
+        "title" : ""
+    },
+    "Executive": {
+      "icon": "rings",
+        "title" : ""
+    },
+    "Legacy": {
+      "icon": "rings",
+        "title" : ""
+    }
+  }
